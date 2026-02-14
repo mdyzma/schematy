@@ -4,3 +4,7 @@
 
 # LangGraph
 .langgraph_api/
+
+
+# OS Speciffic
+.DS_Store
