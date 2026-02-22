@@ -29,6 +29,3 @@ AI directives, role cards, and cross-platform configurations.
 - **Skills**: Documentation and templates for extending agent capabilities using the Agent Skills standard.
 - **Teams**: Orchestration patterns for multi-agent workflows.
 
-## Notes
-
-- On case-insensitive filesystems (common on macOS), `agents/` and `AGENTS/` refer to the same directory. This repository uses lowercase `agents/` as the canonical name.
