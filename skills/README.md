@@ -6,6 +6,16 @@ At their core, Agent Skills are just folders containing a SKILL.md file. This fi
 
 Here is a breakdown of how to create and manage skills across Gemini, Codex, OpenClaw, Copilot, and OpenCode.
 
+## Skills markets
+
+| Marketplace | Skills Count | Key Categories | Monetization | Installation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[SkillzWave](https://skillzwave.ai)** | 44,000+ | Dev, Legal, Finance | Creator pricing | CLI (`skilz`) |
+| **[Skills Store](https://skills.sh)** | Thousands | All verified | Per-download | API |
+| **[Smithery](https://smithery.ai)** | Thousands | Tools, Web, AI | Community | Protocol servers |
+| **[Agent Skills Repo](https://github.com/anthropics/skills)** | 100K+ | Coding, Analytics | Free/share | Direct install |
+| **[ClawMart / ClawHub](https://clawhub.com)** | Growing | Custom extensions | Usage pay | File-based |
+
 ## Skils scope
 
 Understanding how AI CLI agents handle skill scopes and where to place those files is crucial for keeping your workflows organized. Almost all modern agents (like the ones we discussed) follow a standard hierarchy of Workspace (Local) Scope versus Home (Global) Scope.
