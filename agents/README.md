@@ -18,6 +18,7 @@ Files are named `*_AGENTS.md` so they are easy to discover and select.
 
 - `minimal_AGENTS.md`: “Repo Assistant” baseline for general codebase questions and small changes.
 - `data_engineer_AGENTS.md`: “Data Platform Engineer” for analytics/schema work (dbt/Flyway/Redshift style workflows).
+- `unified_agents.md`: A comprehensive guide on setting up a single source of truth for agents across multiple tools (Gemini, Claude, OpenCode).
 
 ## Conventions For New Agents
 
@@ -37,7 +38,3 @@ Suggested sections (optional, but consistent with the existing agents):
 - `## Workflow`
 - `## Style`
 
-## Note On `agents/` vs `AGENTS/`
-
-This repository currently has two directories with duplicate agent files: `AGENTS/` and `agents/`.
-Pick one as the canonical source of truth and keep the other in sync (or remove it) to avoid drift.

@@ -1,6 +1,6 @@
 # Teams
 
-This folder is for *agent teams*: small bundles of agent role cards that are meant to be used together for a workflow (for example: planner + implementer + reviewer), or for a domain (for example: data platform team).
+Part of the **Schema Library**, this folder is for *agent teams*: small bundles of agent role cards that are meant to be used together for a workflow (for example: planner + implementer + reviewer), or for a domain (for example: data platform team).
 
 ## Intent
 

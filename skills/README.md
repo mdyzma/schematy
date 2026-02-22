@@ -1,6 +1,20 @@
 # Skills
 
-Most modern CLI coding agents have adopted an open, portable "Agent Skill" format (originally popularized by Anthropic), meaning a skill written for one tool will often work seamlessly in another.
+This folder serves as a reference for the Agent Skills ecosystem and a placeholder for portable skills that can be shared across agents.
+
+## In This Repository
+
+Currently, this folder contains documentation on:
+- How to structure and manage skills.
+- The difference between Workspace (Local) and Home (Global) scopes.
+- Marketplaces for discovering pre-built skills.
+
+You can add your own skills here by creating a sub-folder for each skill with a `SKILL.md` file inside.
+
+---
+
+Most modern CLI coding agents
+ have adopted an open, portable "Agent Skill" format (originally popularized by Anthropic), meaning a skill written for one tool will often work seamlessly in another.
 
 At their core, Agent Skills are just folders containing a SKILL.md file. This file uses YAML frontmatter for metadata (like the skill's name and a description that acts as the "trigger phrase") and Markdown for the actual instructions, rules, and examples.
 
